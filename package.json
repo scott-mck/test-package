@@ -9,7 +9,8 @@
     "clean": "rm -rf lib/*",
     "prepublish": "npm-run-all clean prepublish:**",
     "prepublish:js:es6": "rollup -c prepublish.config.js -f es -o lib/index.es6.js",
-    "prepublish:js:cjs": "rollup -c prepublish.config.js -f cjs -o lib/index.js"
+    "prepublish:js:cjs": "rollup -c prepublish.config.js -f cjs -o lib/index.js",
+    "prepublish:readme": "cp ./README.md ./lib/README.md"
   },
   "repository": {
     "type": "git",
