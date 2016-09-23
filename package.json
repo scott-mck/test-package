@@ -1,6 +1,6 @@
 {
   "name": "console-log-shortcut",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "Save tens of characters by using log() instead of console.log()!",
   "main": "index.js",
   "jsnext:main": "index.es6.js",
@@ -9,8 +9,7 @@
     "clean": "rm -rf lib/*",
     "prepublish": "npm-run-all clean prepublish:**",
     "prepublish:js:es6": "rollup -c -f es -o lib/index.es6.js",
-    "prepublish:js:cjs": "rollup -c -f cjs -o lib/index.js",
-    "prepublish:readme": "cp ./README.md ./lib/README.md"
+    "prepublish:js:cjs": "rollup -c -f cjs -o lib/index.js"
   },
   "repository": {
     "type": "git",
@@ -26,10 +25,6 @@
     "jquery": "^3.1.0"
   },
   "devDependencies": {
-    "babel-cli": "^6.14.0",
-    "npm-run-all": "^3.1.0",
-    "rollup-plugin-babel": "^2.6.1",
-    "rollup-plugin-commonjs": "^5.0.4",
-    "rollup-plugin-node-resolve": "^2.0.0"
+    "npm-run-all": "^3.1.0"
   }
 }
