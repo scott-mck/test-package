@@ -1,7 +1,7 @@
 {
-  "name": "test-package",
+  "name": "console-log-shortcut",
   "version": "1.0.0",
-  "description": "A test package.",
+  "description": "Save tens of characters by using log() instead of console.log()!",
   "main": "index.js",
   "jsnext:main": "index.es6.js",
   "scripts": {
