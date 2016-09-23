@@ -1,6 +1,6 @@
 {
   "name": "console-log-shortcut",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Save tens of characters by using log() instead of console.log()!",
   "main": "lib/index.js",
   "jsnext:main": "lib/index.es6.js",
